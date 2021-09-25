@@ -1,0 +1,38 @@
+.center {
+    width: 80%;
+    margin: auto;
+    padding: 12px;
+    text-align: center;
+}
+.conatiner {
+    padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.about{
+    background-color: grey;
+    font-size: medium;
+    width:40%;
+}
+button{
+    height: 40px;
+    width: 80px;
+    background-color: rgb(51, 51, 226);
+    color: grey;
+}
+a {
+    color: grey;
+    text-decoration: none;
+}
+.link{
+    color: rgb(71, 32, 71);
+}
+@media only screen and (max-width: 600px) {
+    .about{
+        background-color: grey;
+        font-size: medium;
+        width:85%;
+    }
+  }

@@ -1,0 +1,25 @@
+h4{
+    margin: 5px 0px;
+}
+label{
+    display: block;
+}
+input{
+    margin: 3px 0px;
+    
+}
+#desc{
+ width: 85%;   
+}
+#title{
+    /* width: 150px; */
+     width: 125px; 
+}
+@media only screen and (max-width: 600px) {
+  #title{
+      width: 85%;
+  }  
+  #desc{
+    width: 85%;   
+   }
+} 

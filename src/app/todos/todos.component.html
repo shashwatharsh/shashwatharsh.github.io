@@ -1,0 +1,13 @@
+<div class="conatiner">
+<h1 class="center">Todo list </h1>
+<div class="todos-el">
+<app-add-todo  (todoAdd)="addTodo($event)"></app-add-todo>
+<h4>Your todos</h4>
+<div *ngIf="this.todos.length===0; else elseBlock">No Todos today.</div>
+<ng-template #elseBlock>
+<div *ngFor= "let todo of todos;index as i">
+    <app-todo-item [todo]="todo" [i]="i"(todoDel)="delTodo($event)" (todoAChange)="tooglekkh($event)"></app-todo-item>
+</div>
+</ng-template>
+</div>
+</div>

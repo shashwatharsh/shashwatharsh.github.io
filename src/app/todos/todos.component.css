@@ -1,5 +1,5 @@
 .center {
-    width: 100%;
+    width: 85%;
     margin: auto;
     padding: 12px;
     text-align: center;
@@ -12,9 +12,19 @@
 
 }
 .todos-el{
-    margin-left: 60vh;
+    margin-left: 20%;
     padding: 7vh;
-    margin-right: 60vh;
+    margin-right: 20%;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 85%;
+  }
+  .todos-el{
+    margin-left: 10%;
+    padding: 3%;
+    margin-right: 10%;
+}
 }
 
 @media (min-width: 768px) {

@@ -1,0 +1,16 @@
+<h4>Add Todos</h4>
+<div class="cont-form">
+    <form (ngSubmit)="AddTodo()">
+<div class="form title">
+    <label for="title">Todo Title:</label>
+    <input type="text" name="title" id="title" [(ngModel)]="title">
+</div>
+<div class="form desc">
+    <label for="desc">Todo Description:</label>
+    <input type="text" name="desc" id="desc" [(ngModel)]="desc">
+</div>
+<div class="submit">
+    <input type="submit" value="Submit">
+</div>
+</form>
+</div>

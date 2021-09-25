@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Routes, Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  public location = '' ;
+
+constructor(private  _router : Router) 
+{      
+  this.location = _router.url;
+}
   title = 'ang-a1';
 }

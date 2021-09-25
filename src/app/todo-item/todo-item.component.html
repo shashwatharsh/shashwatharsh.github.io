@@ -1,0 +1,10 @@
+<div class="todo">
+<h5 [ngClass]="{'strike':!todo.isActive}">{{todo.title}}</h5>
+<p [ngClass]="{'strike':!todo.isActive}">{{todo.desc}}</p>
+<input type="checkbox" name="dooneOrnot" id="dooneOrnot{{i}}" (click)="onCheckCB(todo)"[checked]="!todo.isActive">
+<label for="doneOrnot{{i}}">Done</label>
+<button class="btn btn-danger" (click)="onDel(todo)">Delete</button>
+<!-- <button [disabled]="isUnchanged">Save</button> -->
+<hr>
+</div>
+

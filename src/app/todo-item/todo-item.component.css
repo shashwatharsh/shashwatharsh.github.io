@@ -1,0 +1,32 @@
+.btn-danger{
+    /* font-size: medium; */
+    border: solid rgba(160, 48, 28, 0.685) 2px;
+    background-color: rgba(241, 24, 24, 0.938);
+    height: 25px;
+    width: 65px;
+    /* margin: 10px 0px; */
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+
+p {
+    margin: 10px 0px;
+    font-size: small;
+}
+
+
+h5 {
+    margin: 7px 0px;
+    font-size: medium;
+}
+.strike{
+    text-decoration: line-through;
+}
+input{
+    margin-right: 10px;
+
+}
+label{
+    padding: 3px;
+}
